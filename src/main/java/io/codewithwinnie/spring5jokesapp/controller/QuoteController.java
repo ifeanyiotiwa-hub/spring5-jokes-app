@@ -17,4 +17,6 @@ public class QuoteController {
     public QuoteController(QuotesService quotesService) {
         this.quotesService = quotesService;
     }
+    
+    
 }
