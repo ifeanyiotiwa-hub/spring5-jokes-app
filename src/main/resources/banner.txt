@@ -1,3 +1,4 @@
+
 ${AnsiColor.GREEN}
  /$$$$$$  /$$$$$$  /$$$$$$$$  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$$$
 |_  $$_/ /$$__  $$|__  $$__/ /$$__  $$| $$__  $$ /$$$_  $$ /$$$_  $$|_____ $$/
@@ -8,6 +9,7 @@ ${AnsiColor.GREEN}
  /$$$$$$|  $$$$$$/   | $$   | $$  | $$| $$  | $$|  $$$$$$/|  $$$$$$/ /$$/
 |______/ \______/    |__/   |__/  |__/|__/  |__/ \______/  \______/ |__/
 
+${AnsiColor.BRIGHT_MAGENTA}
 
 
  /$$$$$$  /$$$$$$      /$$      /$$ /$$$$$$ /$$   /$$ /$$   /$$ /$$$$$$ /$$$$$$$$
@@ -21,7 +23,7 @@ ${AnsiColor.GREEN}
 
 
 
-${AnsiColor.YELLOW} Application Name: ${application.title}
-${AnsiColor.BRIGHT_YELLOW} Application Version: ${application.version}
+${AnsiColor.YELLOW} Application Name: ${AnsiStyle.BOLD} JOKE APP
+${AnsiColor.BRIGHT_YELLOW} Application Version: ${AnsiStyle.UNDERLINE} version ${spring-boot.version} ${AnsiStyle.NORMAL}
 ${AnsiColor.RED} :: Spring Boot${spring-boot.formatted-version} :: ${AnsiColor.RED}
 ${AnsiColor.DEFAULT}
